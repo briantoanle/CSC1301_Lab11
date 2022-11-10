@@ -62,11 +62,9 @@ def extraCredit():
     tempNum = 0
     for i in tempList:
         temp = str(i)
-        counter=0
         sum=0
         for i in range(len(temp)):
             sum+=int(temp[i])
-        #print(sum,temp)
         if sum > tempSum:
             tempSum = sum
             tempNum = temp
